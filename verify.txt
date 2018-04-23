@@ -1,2 +1,5 @@
 GPU: lspci | grep -i nvidia
 ubuntu版本，位数等： uname -m && cat /etc/*release
+查看CPU信息： cat /proc/cpuinfo
+查看内存大小： free -m
+查看硬盘大小： df -h
